@@ -1,0 +1,24 @@
+
+
+.footer {
+    background-color: rgba(1,75,135,255);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.estudiante-img{
+    border-radius: 100%;
+}

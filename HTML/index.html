@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Estudiantes</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
     
 </head>
 
@@ -56,16 +57,16 @@
     </header>
 
     
-    <nav>
+    <nav class="nav">
         <ul>
-            <li><a href="barraNavegacion/contenido.html">Contenido</a></li>
-            <li><a href="barraNavegacion/asignaciones.html">Asignaciones</a></li>
-            <li><a href="barraNavegacion/foros.html">Foros</a></li>
-            <li><a href="barraNavegacion/cuestionarios.html">Cuestionarios</a></li>
-            <li><a href="barraNavegacion/progresoDeLaClase.html">Progreso de la clase</a></li>
-            <li><a href="barraNavegacion/valoraciones.html">Valoraciones</a></li>
-            <li><a href="barraNavegacion/evaluaciones.html">Evaluación</a></li>
-            <li><a href="barraNavegacion/herramientas.html">Herramientas</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/contenido.html">Contenido</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/asignaciones.html">Asignaciones</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/foros.html">Foros</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/cuestionarios.html">Cuestionarios</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/progresoDeLaClase.html">Progreso de la clase</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/valoraciones.html">Valoraciones</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/evaluaciones.html">Evaluación</a></li>
+            <li class="nav-list"><a class="nav-link" href="barraNavegacion/herramientas.html">Herramientas</a></li>
         </ul>
     </nav>
 
@@ -82,11 +83,11 @@
 
         <br>
 
-        <section id="estudiante">
+        <section class="estudiante">
             <!-- perfiles de usuarios -->
             <div >
                 <div>
-                    <img src="../recursos/imagenes/usuarios/usuario1.png" alt="Perfil" width="150" height="200">
+                    <img class="estudiante-img" src="../recursos/imagenes/usuarios/usuario1.png" alt="Perfil" width="150" height="200">
                     <h3>Fernando Rojas</h3>
                     <p>Ing. Electronico</p>
                     
@@ -195,21 +196,13 @@
 
     <br>
 
-    <footer>
+    <footer class="footer">
         <section >
             <h3> Información de Contacto</h3>
-            <ul type="none">
-                <li>
-                    <p>Línea Gratuita Nacional: 01 8000 180 504 </p>
-                </li>
-
-                <li>
-                    <a href="https://www.google.com.co/maps/place/11%C2%B013'34.7%22N+74%C2%B011'12.9%22W/@11.2263056,-74.1869167,17z/data=!3m1!4b1!4m4!3m3!8m2!3d11.2263056!4d-74.1869167?entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" >Dirección: Calle 29H3 No. 22 - 01 Santa Marta D.T.C.H. - Colombia. Código Postal No. 470004</a>
-                </li>
-
-                <li>
-                    <a href="mailto:contacto@unimagdalena.edu.co" target="_blank" >Correo electrónico: admisiones@unimagdalena.edu.co</a>
-                </li>
+            <ul type=none class="footer-list">
+                <li class="footer-list"><p>Línea Gratuita Nacional: 01 8000 180 504 </p></li>
+                <li class="footer-list"><a class="footer-link" href="https://www.google.com.co/maps/place/11%C2%B013'34.7%22N+74%C2%B011'12.9%22W/@11.2263056,-74.1869167,17z/data=!3m1!4b1!4m4!3m3!8m2!3d11.2263056!4d-74.1869167?entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" >Dirección: Calle 29H3 No. 22 - 01 Santa Marta D.T.C.H. - Colombia. Código Postal No. 470004</a></li>
+                <li class="footer-list"><a class="footer-link" href="mailto:contacto@unimagdalena.edu.co" target="_blank" >Correo electrónico: admisiones@unimagdalena.edu.co</a></li>
             </ul>
         </section>
 
