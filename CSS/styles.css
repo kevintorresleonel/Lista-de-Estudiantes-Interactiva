@@ -91,3 +91,30 @@
     border-radius: 100%;
 }
 
+
+.barra-submit{
+    height: 100px;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);;
+    z-index: 30;
+    position: fixed; /*para mantener el elemento en una posicion fija siempre visible, con respecto a la pagina completa. Se usa para banners y globos de chat fijos en nuestras paginas */
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+
+}
+
+
+.barra-submit-buttom{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    left: 0;
+    color: white;
+    background-color:  rgb(20, 75, 153) ;
+    border-radius: 10%;
+    margin-right: 50px;
+
+}
+
