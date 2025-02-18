@@ -39,6 +39,8 @@
 }
 
 #header-perfil-img{
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
 }
 
@@ -66,9 +68,26 @@
 }
 
 
+.estudiante > div {
+    display: flex;
+    flex-wrap: wrap; /*pemite que las tarjetas pasen a la siguiente fila si no caben */
+    gap: 20px; /*espacio entre tarjetas */
+    justify-content: center; 
+}
 
+.estudiante > div > div {
+    background: rgb(239, 236, 236); /*color de fondo */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /*para dar sombra a las tarjetas*/
+}
 
 
 .estudiante-img{
-
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
+
