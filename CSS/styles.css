@@ -21,6 +21,10 @@
     
 }
 
+.header-component:hover{
+    color: rgb(20, 75, 153);
+}
+
 .header-buttom{
     background-color: transparent;
     border: none;
@@ -66,5 +70,5 @@
 
 
 .estudiante-img{
-    border-radius: 100%;
+
 }
