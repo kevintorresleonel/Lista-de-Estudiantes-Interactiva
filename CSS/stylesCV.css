@@ -1,3 +1,57 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+header{
+    height: 350px;
+    margin: 0;
+    background-color:  rgb(20, 75, 153);
+    display: flex;
+    gap: 10px; /* Espacio entre los elementos */
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    display: inline;
+    font-size: 40px;
+}
+
+header h1, header h3 {
+    margin: 0; /* Elimina márgenes extra */
+    display: inline-block; /* Hace que se comporten en línea */
+    padding-top: 50px;
+}
+
+#perfil-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 25px;
+    display: inline;
+
+}
+
+.box-contacto{
+    margin: 0;
+    width: 500px;
+    height: 1000px;
+    background-color: rgb(56, 156, 244);
+}
+
+
+
+
+/*
+
 .header{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -90,3 +144,5 @@ th, td {
 th {
     background-color: #d9eaf7;
 }
+
+*/
