@@ -28,10 +28,18 @@ h3 {
     font-size: 20px;
     padding-left: 30px;
     padding-right: 0;
+    text-align: center;
+    text-shadow: 0 0 .5px black;
+    font-family: Lato;
     
 }
 h5{
     padding: 0;
+    
+}
+
+h4{
+    text-decoration: underline;
 }
 
 p{
@@ -39,9 +47,10 @@ p{
 }
 
 header h1, header h3 {
-    margin: 0; /* Elimina márgenes extra */
-    display: inline-block; /* Hace que se comporten en línea */
+    margin: 0; 
+    display: inline-block; /*para que las dos cajas debajo del heade se compoten como elementos en linea*/
     padding-top: 90px;
+    text-shadow: 0 0 5px black;
 }
 
 #perfil-img{
@@ -57,14 +66,15 @@ header h1, header h3 {
 }
 
 .contenedor {
-    display: flex; /* Alinea las cajas en fila */
+    display: flex; /*para alinear las dos divisiones debajo de mi header*/
 }
 
 .box-contacto{
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
     width: 600px;
-    height: 1000px;
+    min-height: 100vh;
     background-color: rgb(56, 156, 244);
     border-right: 2px solid black;
     text-shadow: 0 0 .5px black;
@@ -72,13 +82,32 @@ header h1, header h3 {
 
 
 .box-presentacion{
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
     color: black;
     padding: 20px;
+    text-shadow: 0 0 .5px black;
     
 }
 
 
+.logo-lenguajes{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+.logo-instituciones{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+#imagen-banner-cv{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+}
 
 
 .lato-thin {
