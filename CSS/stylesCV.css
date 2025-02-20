@@ -33,18 +33,11 @@ h3 {
     font-family: Lato;
     
 }
-h5{
-    padding: 0;
-    
-}
 
 h4{
     text-decoration: underline;
 }
 
-p{
-    padding: 0;
-}
 
 header h1, header h3 {
     margin: 0; 
@@ -103,12 +96,9 @@ header h1, header h3 {
     margin-left: 40px;
 }
 
-#imagen-banner-cv{
-    margin: 0;
-    padding: 0%;
-    width: 100%;
-}
 
+
+/*Fuentes tomadas de google Fonts para mayor similutud con la página web de la Universidad */
 
 .lato-thin {
     font-family: "Lato", serif;
